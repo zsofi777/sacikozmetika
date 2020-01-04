@@ -1,1 +1,1 @@
-# https://zsofi777.github.io/course-site/
+# https://zsofi777.github.io/sacikozmetika/
