@@ -1360,7 +1360,7 @@ p {
 }
 
 .sticky-wrapper .site-navbar .site-logo {
-  background: url(/icons/logoLay.png);
+  background: url(icons/logoLay.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1369,7 +1369,7 @@ p {
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-logo {
-  background: url(/icons/logoRed.png);
+  background: url(icons/logoRed.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
