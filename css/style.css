@@ -340,16 +340,6 @@ a#btn1, a#btn2, a#btn3 {
 }
 
 
-
-.fb-page {
-  display: grid;
-  place-items: center;
-  align-self: center; 
-  text-align: center; 
-  margin-top: 10%;
-}
-
-
 .video {
   width: 507px; 
   height: 285px; 
@@ -524,6 +514,13 @@ a#btn1, a#btn2, a#btn3 {
   }
 }
 
+
+.fb-page {
+  display: grid !important;
+  place-items: center;
+  align-self: center; 
+  text-align: center; 
+}
 
 a#btn1.btn.btn-primary {
   border-color: #FFE713;
