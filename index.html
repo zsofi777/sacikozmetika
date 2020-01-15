@@ -15,7 +15,7 @@
   <!-- TAB ICON -->
     <link rel="shortcut icon" href="icons/faviconRed.png" />
   <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Nunito&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Lato|Nunito&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="fonts/icomoon/style.css" />
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
   <!-- STYLES -->
@@ -25,6 +25,19 @@
   </head>
 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+    <style>
+    .sticky-wrapper.is-sticky .site-navbar .site-logo {
+      background: url(icons/logoRed.png) !important;
+      background-size: cover !important; 
+      background-repeat: no-repeat !important; 
+      background-position: center !important;
+    }
+    </style>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v5.0"></script>
+
   <!-- .site-mobile-menu -->
     <div class="site-wrap">
 
@@ -42,7 +55,7 @@
           <div class="container">
             <div class="row align-items-center">
               <div class="col-6 col-lg-3">
-                <h1 class="my-0 site-logo">
+                <h1 class="my-0 site-logo" style="background: url(icons/logoLay.png); background-size: cover; background-repeat: no-repeat; background-position: center;">
                   <a href="index.html"></a>
                 </h1>
               </div>
@@ -84,7 +97,7 @@
           <div class="text" id="text">
             
             <h2 class="text-dark mb-5" style="margin-bottom: 0 !important; font-size: 70px;">SACI</h2>
-            <h2 class="text-dark mb-5" style="margin-bottom: 0 !important; text-shadow:none;">Kutya- és Cicakozmetikus</h2>
+            <h2 class="text-dark mb-5" style="margin-bottom: 0 !important; text-shadow: none;">Kutya- és Cicakozmetikus</h2>
             <div class="grid-container1">
               <div class="item1">
                 <img class="homePic" src="images/homePic.jpg" alt="logo">
@@ -121,7 +134,7 @@
               <h3 class="heading" style="color: #1712F6;">Szolgáltatások</h3>
               <div class="grid-container5">
                 <div class="item8">
-                  <img class="servicePawLeft" src="images/paws.png" alt="paws">
+                  <img class="servicePawLeft" src="images/pawBlue.png" alt="paws">
                 </div>
                 <div class="item9">
                   <ul class="serviceText2">
@@ -134,7 +147,7 @@
                   </ul>
                 </div>
                 <div class="item10">
-                  <img class="servicePawRight" src="images/paws.png" alt="paws">
+                  <img class="servicePawRight" src="images/pawRed.png" alt="paws">
                 </div>
               </div>
           </div>
@@ -166,7 +179,7 @@
         </div>
         <div class="grid-container4">
           <div class="item7">
-            <img class="profilPic" src="images/profilPic.jpg" alt="Saci">
+            <img class="profilPic" src="images/profilPic.jpg" alt="Saci" style="outline: dotted 5px #FFE713; padding: 0;">
           </div>
         </div>
 
@@ -179,6 +192,7 @@
               <div class="about-thumbnail bg-img" style="background-image: url(images/betti.jpg);"></div>
               <!-- about Hover Text -->
               <div class="about-hover-overlay">
+                <a data-fancybox="images" href="images/betti.jpg" class="about-img d-flex align-items-center justify-content-center"></a>
                 <h5 class="about-img d-flex align-items-center justify-content-center">Bettivel</h5>
               </div>
             </div>
@@ -186,9 +200,10 @@
             <!-- Single about Area2 -->
             <div class="col-12 col-sm-6 col-lg-3 single_about_item">
               <!-- about Thumbnail -->
-              <div class="about-thumbnail bg-img" style="background-image: url(images/cakk.jpg); transform: rotate(90deg);"></div>
+              <div class="about-thumbnail bg-img" style="background-image: url(images/cakk.jpg);"></div>
               <!-- about Hover Text -->
               <div class="about-hover-overlay">
+                <a data-fancybox="images" href="images/cakk.jpg" class="about-img d-flex align-items-center justify-content-center"></a>
                 <h5 class="about-img d-flex align-items-center justify-content-center">Cakk</h5>
               </div>
             </div>
@@ -199,6 +214,7 @@
               <div class="about-thumbnail bg-img" style="background-image: url(images/rübe.jpg);"></div>
               <!-- about Hover Text -->
               <div class="about-hover-overlay">
+                <a data-fancybox="images" href="images/rübe.jpg" class="about-img d-flex align-items-center justify-content-center"></a>
                 <h5 class="about-img d-flex align-items-center justify-content-center">Rübe</h5>
               </div>
             </div>
@@ -206,15 +222,32 @@
             <!-- Single about Area4 -->
             <div class="col-12 col-sm-6 col-lg-3 single_about_item">
               <!-- about Thumbnail -->
-              <div class="about-thumbnail bg-img" style="background-image: url(images/deila.jpg);"></div>
+              <div class="about-thumbnail bg-img" style="background-image: url(images/deila.jpg); background-position: top;"></div>
               <!-- about Hover Text -->
               <div class="about-hover-overlay">
+                <a data-fancybox="images" href="images/deila.jpg" class="about-img d-flex align-items-center justify-content-center"></a>
                 <h5 class="about-img d-flex align-items-center justify-content-center">Deila</h5>
               </div>
             </div>
             
           </div>          
         </div>
+
+          <div class="fb-page" 
+            data-href="https://www.facebook.com/FabianSacikutyakozmetikus/"
+            data-tabs="timeline" 
+            data-width=""
+            data-hight=""
+            data-small-header="false"
+            data-adapt-container-width="true"
+            data-hide-cover="false" 
+            data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/FabianSacikutyakozmetikus/" class="fb-xfbml-parse-ignore">
+              <a href="https://www.facebook.com/FabianSacikutyakozmetikus/">Testing
+              </a>
+            </blockquote>
+          </div> 
+
       </div>
 
   <!--*****************GALLERY*****************-->
@@ -380,22 +413,28 @@
             <h1 class="heading" style="color: #FFE713;">PARTNEREIM</h1>
             <div class="grid-container7">
               <div class="item12">
-                <img class="partnerPic1" src="images/partner1.png" alt="logo">
+                <a href="http://www.zanni.hu/">
+                  <img class="partnerPic1" src="images/partner1.png" alt="logo">
+                </a>
               </div>
               <div class="item13">
                 <a href="http://www.zanni.hu/" class="partner1">Zanni</a>              
               </div>
               <div class="item14">
-                <img class="partnerPic2" src="images/partner2.png" alt="logo">
+                <a href="http://www.waltitaxi.hu/">
+                  <img class="partnerPic2" src="images/partner2.png" alt="logo">
+                </a>
               </div>
               <div class="item15">
                 <a href="http://www.waltitaxi.hu/" class="partner2">Walti taxi</a>              
               </div>
               <div class="item16">
-                <img class="partnerPic3" src="images/partner3.png" alt="logo">
+                <a href="https://termeszetes.com/termekek/kategoria/kutyakozmetikumok/?orderby=price&fbclid=IwAR3Gpi6uTvPmAcVokt9mMyC3WrkXTokEt2lldEiq-qqUZS3ezIXO7q_SxsM">
+                  <img class="partnerPic3" src="images/partner3.png" alt="logo">
+                </a>
               </div>
               <div class="item17">
-                <a href="http://kutyasampon.hu/" class="partner3">Faithful Friend</a>              
+                <a href="https://termeszetes.com/termekek/kategoria/kutyakozmetikumok/?orderby=price&fbclid=IwAR3Gpi6uTvPmAcVokt9mMyC3WrkXTokEt2lldEiq-qqUZS3ezIXO7q_SxsM" class="partner3">Faithful Friend</a>              
               </div>
             </div> 
           </div>
@@ -437,7 +476,7 @@
       </div>
 
 <!--*****************CONTACT*****************-->
-
+    
       <div class="site-section" id="contact-section">
         <div class="author">
           <div class="text" id="text">
@@ -464,8 +503,6 @@
         </div>    
       </div>      
 
-
-  <!--*****************FOOTER*****************-->
 
       <footer class="site-footer"></footer>
       
