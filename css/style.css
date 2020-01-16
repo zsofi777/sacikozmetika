@@ -8,13 +8,13 @@
 }
 
 .warning {
-  color: black;
+  color: #2a2a2a;
   vertical-align: middle;
   line-height: 80px; 
   margin: 0px;
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Sue+Ellen+Francisco', cursive;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .saci-about.row {
@@ -112,7 +112,7 @@ h2.text-dark.mb-5 {
   color: #FB0E0E !important;
   text-shadow: 4px 4px 0 #FFE713, 4px -4px 0 #1712F6;
   font-weight: bold;
-  font-family: 'Sue+Ellen+Francisco', cursive;
+  font-family: 'Patrick Hand', cursive;
 }
 
 h5#homeH5 {
@@ -139,7 +139,7 @@ h5#contactH5 {
 }
 
 a#btn1, a#btn2, a#btn3 {
-  font-family: 'Sue+Ellen+Francisco', cursive;
+  font-family: 'Patrick Hand', cursive;
   font-size: 16px;
 }
 
@@ -554,13 +554,13 @@ a#btn2.btn.btn-primary:active {
 }
 
 h1.heading {
-  font-family: 'Sue+Ellen+Francisco', cursive;
+  font-family: 'Patrick Hand', cursive;
   font-size: 42px;
   font-weight: bold;
 }
 
 h2.heading {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Patrick Hand', cursive;
   font-size: 36px;
   font-weight: bold;
 }
@@ -568,7 +568,7 @@ h2.heading {
 
 h3.heading {
   font-weight: bold;
-  font-family: 'Sue+Ellen+Francisco', cursive;
+  font-family: 'Patrick Hand', cursive;
   font-size: 36px;
 }
 
@@ -586,6 +586,22 @@ padding: 0; }
   padding-top: 4em;
   background: rgb(250,250,250);
   background: linear-gradient(90deg, rgba(255,255,255,1) 38%, rgba(23,18,246,1) 67%);
+}
+
+#rainbow {
+  background-image: -webkit-gradient( linear, right top, left top, color-stop(0, #FB0E0E), color-stop(0.14, #fb3e3e), color-stop(0.28, #1712F6), color-stop(0.42, #4541f7), color-stop(0.56, #4CF410),color-stop(0.7, rgb(76, 244, 16)), color-stop(0.84, #FFE713), color-stop(1, #FB0E0E) );
+  background-image: gradient( linear, right top, left top, color-stop(0, #FB0E0E), color-stop(0.14, #fb3e3e), color-stop(0.28, #1712F6), color-stop(0.42, #4541f7), color-stop(0.56, #4CF410),color-stop(0.7, #4CF410), color-stop(0.84, #FFE713), color-stop(1, #FB0E0E) );
+  color:transparent; 
+  -webkit-background-clip: text; 
+  background-clip: text;
+}
+
+#rainbow:hover {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #FB0E0E), color-stop(0.14, #fb3e3e), color-stop(0.28, #1712F6), color-stop(0.42, #4541f7), color-stop(0.56, #4CF410),color-stop(0.7, rgb(76, 244, 16)), color-stop(0.84, #FFE713), color-stop(1, #FB0E0E) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #FB0E0E), color-stop(0.14, #fb3e3e), color-stop(0.28, #1712F6), color-stop(0.42, #4541f7), color-stop(0.56, #4CF410),color-stop(0.7, #4CF410), color-stop(0.84, #FFE713), color-stop(1, #FB0E0E) );
+  color:transparent; 
+  -webkit-background-clip: text; 
+  background-clip: text;
 }
 
 #services-section {
@@ -610,7 +626,7 @@ padding: 0; }
 
 #partners-section {
   background: rgb(255,231,19);
-  background: radial-gradient(circle, rgba(255,231,19,1) 0%, rgba(23,18,246,1) 50%, rgba(251,14,14,1) 100%);
+  background: radial-gradient(circle, rgba(251,14,14,1) 0%, rgba(23,18,246,1) 40%, rgba(255,231,19,1) 100%);
 }
 
 #contact-section {
@@ -631,7 +647,7 @@ body {
   color: black;
   font-weight: normal;
   font-size: 1rem;
-  font-family: 'Sue+Ellen+Francisco', cursive;
+  font-family: 'Patrick Hand', cursive;
   background: rgb(23,18,246);
   background: linear-gradient(90deg, rgba(23,18,246,1) 0%, rgba(251,14,14,1) 46%, rgba(255,231,19,1) 100%);}
 
@@ -672,7 +688,7 @@ h5 {
 }
 
 p {
-  color: rgb(0, 0, 0);
+  color: #2a2a2a;
   font-weight: bold;
 }
 
@@ -684,7 +700,7 @@ p {
 
 
 .serif {
-  font-family: 'Sue+Ellen+Francisco', cursive;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .position-relative {
@@ -992,7 +1008,7 @@ p {
 .site-navbar .site-navigation .site-menu > li > a {
   padding: 7px;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   text-decoration: none !important;
 }
@@ -1016,7 +1032,7 @@ p {
 .site-navbar .site-navigation .site-menu .has-children > a:before {
   position: absolute;
   content: "\e313";
-  font-size: 16px;
+  font-size: 20px;
   top: 50%;
   right: 0;
   -webkit-transform: translateY(-50%);
@@ -1416,7 +1432,7 @@ p {
 }
 .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li > a {
   padding: 7px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li > a:hover {
@@ -1555,7 +1571,7 @@ p {
 
 
 .heading {
-  font-family: 'Sue+Ellen+Francisco', cursive;
+  font-family: 'Patrick Hand', cursive;
   position: relative;
   padding-bottom: 10px;
   margin-bottom: 20px;
