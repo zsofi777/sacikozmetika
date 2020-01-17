@@ -47,7 +47,8 @@
     .single_about_item .about-thumbnail.bg-img {
       background-size: cover; 
       background-repeat: no-repeat; 
-      background-position: center; }
+      background-position: center;
+      border-radius: 15px; }
   .single_about_item .about-hover-overlay {
     width: calc(100% - 20px);
     height: 100%;
@@ -514,12 +515,39 @@ a#btn1, a#btn2, a#btn3 {
   }
 }
 
-
 .fb-page {
   display: grid !important;
   place-items: center;
   align-self: center; 
   text-align: center; 
+}
+
+.item26 { grid-area: saci;}
+.item27 { grid-area: kartel;}
+.item28 { grid-area: eszter;}
+
+.grid-container10 {
+  display: grid;
+  place-items: center;
+  align-self: center; 
+  text-align: center; 
+  grid-template-areas: 
+    "saci kartel eszter";
+  padding: 10px;
+  grid-gap: 20px;
+}
+
+@media (max-width: 800px) {
+  .grid-container10 {
+    grid-template-areas: 
+    "saci"
+    "eszter"
+    "kartel";
+    grid-gap: 20px;
+  }
+  iframe {
+    width: calc(100% - 1px);
+  }
 }
 
 a#btn1.btn.btn-primary {
