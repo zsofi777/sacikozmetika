@@ -8,14 +8,13 @@
 }
 
 .warning {
-  color: #2a2a2a;
+  color: #1d1d1d;
   vertical-align: middle;
   line-height: 80px; 
   margin: 0px;
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Patrick Hand', cursive;
-}
+  font-family: 'Great Vibes', cursive;}
 
 .saci-about.row {
   margin-right: -10px;
@@ -113,7 +112,7 @@ h2.text-dark.mb-5 {
   color: #FB0E0E !important;
   text-shadow: 4px 4px 0 #FFE713, 4px -4px 0 #1712F6;
   font-weight: bold;
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Great Vibes', cursive;
 }
 
 h5#homeH5 {
@@ -140,7 +139,7 @@ h5#contactH5 {
 }
 
 a#btn1, a#btn2, a#btn3 {
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Great Vibes', cursive;  
   font-size: 16px;
 }
 
@@ -582,13 +581,13 @@ a#btn2.btn.btn-primary:active {
 }
 
 h1.heading {
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Great Vibes', cursive;  
   font-size: 42px;
   font-weight: bold;
 }
 
 h2.heading {
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Great Vibes', cursive;  
   font-size: 36px;
   font-weight: bold;
 }
@@ -596,7 +595,7 @@ h2.heading {
 
 h3.heading {
   font-weight: bold;
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Great Vibes', cursive;  
   font-size: 36px;
 }
 
@@ -630,6 +629,10 @@ padding: 0; }
   color:transparent; 
   -webkit-background-clip: text; 
   background-clip: text;
+}
+
+a#rainbow {
+  width: 200px !;
 }
 
 #services-section {
@@ -674,8 +677,8 @@ body {
   line-height: 1.7;
   color: black;
   font-weight: normal;
-  font-size: 1rem;
-  font-family: 'Patrick Hand', cursive;
+  font-size: 1.4rem;
+  font-family: 'Great Vibes', cursive;  
   background: rgb(23,18,246);
   background: linear-gradient(90deg, rgba(23,18,246,1) 0%, rgba(251,14,14,1) 46%, rgba(255,231,19,1) 100%);}
 
@@ -716,7 +719,7 @@ h5 {
 }
 
 p {
-  color: #2a2a2a;
+  color: #1d1d1d;
   font-weight: bold;
 }
 
@@ -728,7 +731,7 @@ p {
 
 
 .serif {
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Great Vibes', cursive;  
 }
 
 .position-relative {
@@ -1599,7 +1602,7 @@ p {
 
 
 .heading {
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Great Vibes', cursive;  
   position: relative;
   padding-bottom: 10px;
   margin-bottom: 20px;
